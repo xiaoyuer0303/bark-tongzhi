@@ -1,0 +1,25 @@
+{
+    "name": "bark-tongzhi",
+    "main": "main.js",
+    "compatibility_date": "2026-03-01",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "observability": {
+        "enabled": true
+    },
+    "d1_databases": [
+        {
+            "binding": "database",
+            "database_name": "database-bark",
+            "database_id": "173b72f6-caa6-4c27-8013-787688ee0545"
+        }
+    ],
+    "keep_vars": true,
+    "vars": {
+        "ALLOW_NEW_DEVICE": "true",
+        "ALLOW_QUERY_NUMS": "true",
+        "ROOT_PATH": "/",
+        // "BASIC_AUTH": ""
+    }
+}
